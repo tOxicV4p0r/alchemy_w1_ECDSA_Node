@@ -15,7 +15,6 @@ function Transfer({ address, setBalance, privateKey, publicKey }) {
 
     try {
       const reqData = {
-        sender: address,
         amount: parseInt(sendAmount),
         recipient
       }
