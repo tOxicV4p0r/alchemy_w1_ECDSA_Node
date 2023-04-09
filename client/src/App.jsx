@@ -21,7 +21,12 @@ function App() {
         publicKey={publicKey}
         setPublicKey={setPublicKey}
       />
-      <Transfer setBalance={setBalance} address={address} />
+      <Transfer
+        setBalance={setBalance}
+        address={address}
+        privateKey={privateKey}
+        publicKey={publicKey}
+      />
     </div>
   );
 }
